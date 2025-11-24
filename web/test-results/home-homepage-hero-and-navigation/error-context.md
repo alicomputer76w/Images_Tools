@@ -1,0 +1,48 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - link "Image Tools" [ref=e7] [cursor=pointer]:
+          - /url: /
+        - navigation [ref=e8]:
+          - link "Convert" [ref=e9] [cursor=pointer]:
+            - /url: /tool/convert
+          - link "Resize" [ref=e10] [cursor=pointer]:
+            - /url: /tool/resize
+          - link "Compress" [ref=e11] [cursor=pointer]:
+            - /url: /tool/compress
+          - link "Crop" [ref=e12] [cursor=pointer]:
+            - /url: /tool/crop
+          - link "Rotate/Flip" [ref=e13] [cursor=pointer]:
+            - /url: /tool/rotate
+    - main [ref=e14]:
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - heading "Fast, private image tools — convert, resize, compress, and edit images in your browser." [level=1] [ref=e17]
+          - paragraph [ref=e18]: Client-side first with privacy-friendly design. No tracking of image content.
+          - link "Start editing" [ref=e20] [cursor=pointer]:
+            - /url: /tool/convert
+        - generic [ref=e21]:
+          - link "Convert JPG, PNG, WebP, AVIF Try now →" [ref=e22] [cursor=pointer]:
+            - /url: /tool/convert
+            - heading "Convert" [level=3] [ref=e23]
+            - paragraph [ref=e24]: JPG, PNG, WebP, AVIF
+            - generic [ref=e25]: Try now →
+          - link "Resize Maintain aspect, DPI Try now →" [ref=e26] [cursor=pointer]:
+            - /url: /tool/resize
+            - heading "Resize" [level=3] [ref=e27]
+            - paragraph [ref=e28]: Maintain aspect, DPI
+            - generic [ref=e29]: Try now →
+          - link "Compress Quality slider Try now →" [ref=e30] [cursor=pointer]:
+            - /url: /tool/compress
+            - heading "Compress" [level=3] [ref=e31]
+            - paragraph [ref=e32]: Quality slider
+            - generic [ref=e33]: Try now →
+    - contentinfo [ref=e34]:
+      - paragraph [ref=e35]: Fast, private image tools — client-side where possible.
+```
